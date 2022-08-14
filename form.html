@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="operations.html">
+                <li class="nav-element">Opérations</li>
+            </a>
+            <a href="form.html">
+                <li class="nav-element">Formulaire</li>
+            </a>
+            <a href="Facturation.html">
+                <li class="nav-element">Facturation</li>
+            </a>
+            <a href="connect.html">
+                <li class="nav-element">Deconnexion</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="main-container">
+            <h1 id="form-title">Formulaire de OnBoarding</h1>
+
+            <form action="/.../..." method="GET">
+
+            <div class="form-example">
+                <label for="business-line">Business Line, Sector, location : </label>
+                <input type="text" name="business-line" id="business-line" required>
+            </div>
+
+            <div class="form-example">
+                <label for="address">Address : </label>
+                <input type="text" name="address" id="address" required>
+            </div>
+
+            <div class="form-example">
+                <label for="email">Email : </label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+            <div class="form-example">
+                <label for="phone">Phone : </label>
+                <input type="text" name="phone" id="phone" required>
+            </div>
+ 
+            <div class="form-example">
+                <label for="broker">Broker : </label>
+                <input type="text" name="broker" id="broker" required>
+            </div>
+
+            <div class="form-example">
+                <label for="referential-data">Données Référentielles : </label>
+                <input type="text" name="referential-data" id="referential-data" required>
+            </div>
+
+            <div class="form-example">
+                <label for="selling-country">Selling Country: </label>
+                <input type="text" name="selling-country" id="selling-country" required>
+            </div>
+
+            <div class="form-example">
+                <label for="trading-country"> Trading Country: </label>
+                <input type="text" name="trading-country" id="trading-country" required>
+            </div>
+
+            <div class="form-example">
+                <label for="booking-country">Booking Country : </label>
+                <input type="text" name="booking-country" id="booking-country" required>
+            </div>
+
+            <div class="form-example">
+                <label for="finra-id">FINRA Broker Dealer ID : </label>
+                <input type="text" name="finra-id" id="finra-id" required>
+            </div>
+
+            <div class="form-example">
+                <label for="sec-id">SEC Broker Dealer ID : </label>
+                <input type="text" name="sec-id" id="sec-id" required>
+            </div>
+
+
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td>Prénom</td>
+                    <td>Age</td>
+                    <td>Mail</td>
+                </tr>
+                <tr>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                    <td><textarea></textarea></td>
+                </tr>
+            </table>
+
+            <div class="form-example">
+                <label for="products-list">Liste des produits traités : </label>
+                <select name="products-list" id="products-list">
+                    <option value="">Choisir un type de produit</option>
+                    <option value="derivative">Produits Dérivées</option>
+                    <option value="stock">Actions (Equity)</option>
+                    <option value="Strucured">Produits Structurés</option>
+                </select>
+            </div>
+
+            <div class="form-example">
+                <label for="motivation">Motivation : </label>
+                <textarea type="text" name="motivation" id="motivation"></textarea>
+            </div>
+
+            <div class="form-example">
+                <input type="submit" value="Soumettre" id="submit-btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
